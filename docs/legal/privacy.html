@@ -24,33 +24,38 @@
 <main>
 <nav><a href="index.html">Stillglow</a> · <a href="terms.html">Terms</a> · <a href="delete-account.html">Delete your account</a></nav>
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: October 21, 2026</p>
+<p class="muted">Last updated: October 28, 2026</p>
 
-<p>Stillglow is an app that helps you rebuild your attention span with short real-world activities and a companion called Tumble. It's made by eugeniushan ("we", "us"). This policy explains what the app collects, why, who helps us run it, and how to delete your data. If you have questions, email <a href="mailto:support.stillglow@gmail.com">support.stillglow@gmail.com</a>.</p>
+<p>Stillglow is an app that helps you rebuild your attention span with short real-world activities and a companion called Tumble. It's made by Eugene Han Jr. ("we", "us"). This policy explains what the app collects, why, who helps us run it, and how to delete your data. If you have questions, email <a href="mailto:support.stillglow@gmail.com">support.stillglow@gmail.com</a>.</p>
 
 <h2>The short version</h2>
 <ul>
-  <li>The app works without signing up. We give your phone a random account id so your progress can be backed up.</li>
+  <li>The app works without signing up. Your progress stays on your phone unless you choose "Save with Google" to back it up.</li>
   <li>What you write in your journal and gratitude lists <strong>never leaves your phone</strong>.</li>
+  <li>If you turn on Tumble’s pause or screen time, the app reads which apps you open and for how long. That <strong>stays on your phone</strong>; we never see it.</li>
   <li>We don't show ads, we don't sell your data, and we don't track you across other apps.</li>
   <li>We collect anonymous usage data to improve the app. You can turn it off in Settings › Privacy.</li>
-  <li>You can delete your account and all its data in the app at any time.</li>
+  <li>If you saved with Google, you can delete your account and all its data in the app at any time.</li>
 </ul>
 
 <h2>What we collect and why</h2>
 <table>
   <thead><tr><th>Data</th><th>Why</th><th>Where it's kept</th></tr></thead>
   <tbody>
-    <tr><td><strong>Your progress:</strong> which activities you did, when and for how long, your level, streak, coins, items, achievements and settings</td><td>To run the app and back up your progress so it isn't lost</td><td>On your phone, and backed up to Google Firebase under your random account id</td></tr>
-    <tr><td><strong>A random account id</strong></td><td>To link your backup, purchases and usage data to you without knowing who you are</td><td>Google Firebase, RevenueCat, PostHog</td></tr>
+    <tr><td><strong>Your progress:</strong> which activities you did, when and for how long, your level, streak, coins, items, achievements and settings</td><td>To run the app and back up your progress so it isn't lost</td><td>On your phone. If you choose "Save with Google", also backed up to Google Firebase under your account</td></tr>
+    <tr><td><strong>Random ids</strong> for purchases and usage data, made on your phone; and your account id if you save with Google</td><td>To link your purchases, usage data and backup to you without knowing who you are</td><td>RevenueCat and PostHog; Google Firebase only if you save with Google</td></tr>
     <tr><td><strong>Your Google name, email address and profile photo link</strong>, only if you choose "Save with Google"</td><td>To sign you in, so you can restore your progress on a new phone</td><td>Google Firebase Authentication</td></tr>
     <tr><td><strong>Purchase information:</strong> which plan you have, trial and renewal dates, and whether it's active. We never see your card details.</td><td>To give you Pro and handle renewals, cancellations and refunds</td><td>Google Play and RevenueCat</td></tr>
     <tr><td><strong>Usage data:</strong> screens you open, activities you start and finish, buttons like "Start trial", the app version, your phone model and operating system, and which store link you installed from</td><td>To understand which parts of the app help people and fix what doesn't</td><td>PostHog, hosted in the United States. You can turn this off in Settings › Privacy.</td></tr>
+    <tr><td><strong>Subscription events:</strong> when a trial starts, a plan renews, is cancelled or refunded, and the price</td><td>To see which parts of the app lead people to Pro</td><td>Sent by RevenueCat to PostHog, under the same random id. These come from RevenueCat's servers, so they continue even if you turn off usage data in the app.</td></tr>
+    <tr><td><strong>Crash reports:</strong> what went wrong when the app crashes or hits an error (the error, the screen, recent navigation, the app version, your phone model and operating system). Never what you type, your name or your email.</td><td>To find and fix bugs</td><td>Sentry, hosted in the United States</td></tr>
   </tbody>
 </table>
 
 <h2>What we don't collect</h2>
-<p>We don't collect your journal or gratitude entries, your location, contacts, photos, microphone or camera, your advertising id, or which other apps you use. Reminders are scheduled on your phone itself, so no notification service receives your data.</p>
+<p>We don't collect your journal or gratitude entries, your location, contacts, photos, microphone or camera, your advertising id, or which other apps you use. (Tumble’s pause and the screen-time card read your app use on your phone, with the Usage access permission you grant, and keep it there. Only counts, such as how many times you closed a paused app, go into anonymous usage data.) Reminders are scheduled on your phone itself, so no notification service receives your data.</p>
+<p>To let you pick which apps to pause, the app reads the list of apps installed on your phone. That list stays on your phone too.</p>
+<p>Like any internet service, our providers receive your phone's IP address when the app connects to them. We've set our usage-data provider to discard it and not to work out your location from it.</p>
 
 <h2>Who helps us run the app</h2>
 <p>These companies process data for us under their own privacy and security commitments. They may not use it for anything else.</p>
@@ -59,6 +64,7 @@
   <li><strong>Google Play</strong> (downloads and payments): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
   <li><strong>RevenueCat</strong> (subscription status): <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
   <li><strong>PostHog</strong>, US hosting (usage data): <a href="https://posthog.com/privacy">posthog.com/privacy</a></li>
+  <li><strong>Sentry</strong>, US hosting (crash reports): <a href="https://sentry.io/privacy/">sentry.io/privacy</a></li>
 </ul>
 <p>Some of these providers may process data outside your country, including in the United States, under standard data-protection safeguards.</p>
 
@@ -67,10 +73,12 @@
   <li>Progress and account data: until you delete your account.</li>
   <li>Purchase records: as long as needed for billing, tax and legal reasons.</li>
   <li>Usage data: no longer than 24 months.</li>
+  <li>Crash reports: no longer than 90 days.</li>
 </ul>
 
 <h2>Deleting your data</h2>
-<p>In the app, go to <strong>Settings › Account › Delete account</strong>. This deletes your backup, your account and the progress on your phone. You can also <a href="delete-account.html">ask us by email</a>. Uninstalling the app deletes everything stored on your phone, including your journal.</p>
+<p>If you saved with Google, go to <strong>Settings › Account › Delete account</strong> in the app. This deletes your backup, your account and the progress on your phone. You can also <a href="delete-account.html">ask us by email</a>. Uninstalling the app deletes everything stored on your phone, including your journal.</p>
+<p>If you never saved with Google, your progress only exists on your phone, and uninstalling deletes it. To delete the purchase and usage data linked to your random id, email us and include your <strong>Support ID</strong> (Settings › About, or use Contact support there, which adds it for you). It's the only way we can find your data.</p>
 
 <h2>Your rights</h2>
 <p>Depending on where you live (for example under the GDPR in Europe or the CCPA in California), you can ask to access, correct, delete or move your data, and object to how we use it. Email <a href="mailto:support.stillglow@gmail.com">support.stillglow@gmail.com</a> and we'll reply within 30 days. You can also complain to your local data-protection authority.</p>
